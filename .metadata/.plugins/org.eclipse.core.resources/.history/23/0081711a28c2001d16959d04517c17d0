@@ -1,0 +1,39 @@
+package backjoonProject.chap1.ch_1427;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ * ?‘ ? •?ˆ˜ A?? Bê°? ì£¼ì–´ì¡Œì„ ?•Œ, A?? Bë¥? ë¹„êµ?•˜?Š” ?”„ë¡œê·¸?¨?„ ?‘?„±?•˜?‹œ?˜¤.
+ * 
+ * input : ì²«ì§¸ ì¤„ì— A?? Bê°? ì£¼ì–´ì§„ë‹¤. A?? B?Š” ê³µë°± ?•œ ì¹¸ìœ¼ë¡? êµ¬ë¶„?˜?–´? ¸ ?ˆ?‹¤.
+ * 
+ * output : ì²«ì§¸ ì¤„ì— ?‹¤?Œ ?„¸ ê°?ì§? ì¤? ?•˜?‚˜ë¥? ì¶œë ¥?•œ?‹¤.
+ *???ƒ»??Aê°? Bë³´ë‹¤ ?° ê²½ìš°?—?Š” '>'ë¥? ì¶œë ¥?•œ?‹¤.
+ *???ƒ»??Aê°? Bë³´ë‹¤ ?‘?? ê²½ìš°?—?Š” '<'ë¥? ì¶œë ¥?•œ?‹¤.
+ *???ƒ»??A?? Bê°? ê°™ì? ê²½ìš°?—?Š” '=='ë¥? ì¶œë ¥?•œ?‹¤.
+ * @author siwon
+ *
+ */
+public class Main {
+	private final static int maxLimit = 2; //ëª‡ê°œ?˜ ? •?ˆ˜ë¥? ë°›ì„ ê±´ì?
+    public static void main(String[] args) {
+    	Scanner scan = new Scanner(System.in);
+    	String arr = scan.nextLine();
+    	String[] integerArr = arr.split(" ");
+    	int j = 0;
+    	List<Integer> a = new ArrayList<Integer>();
+    	for(int i=0; i<maxLimit; i++) {
+			a.add(Integer.parseInt(integerArr[j++]));    		
+    	}
+    	
+    	if(a.get(0)<a.get(1)) {
+			System.out.println("<");
+		}else if(a.get(0)>a.get(1)) {
+			System.out.println(">");
+		}else {
+			System.out.println("==");
+		}
+    }
+}

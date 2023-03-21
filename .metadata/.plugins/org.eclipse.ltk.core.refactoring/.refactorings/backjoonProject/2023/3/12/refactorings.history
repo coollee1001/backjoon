@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;backjoonProject.chap1.ch_4999&apos; to &apos;backjoonProject/src/backjoonProject.chap1.ch_4999&apos;&#x0D;&#x0A;- Original project: &apos;backjoonProject&apos;&#x0D;&#x0A;- Destination element: &apos;backjoonProject/src/backjoonProject.chap1.ch_4999&apos;&#x0D;&#x0A;- Original element: &apos;backjoonProject/src/backjoonProject.chap1.ch_4999&apos;" description="Copy package" destination="/src&lt;backjoonProject.chap1.ch_4999" element1="/src&lt;backjoonProject.chap1.ch_4999" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1679415971653" version="1.0"/>
+</session>

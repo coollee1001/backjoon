@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Mar 2023 13:19:08 GMT</lastBuildDate><item><title><![CDATA[Spring Boot 3.0.5 available now]]></title><link>https://spring.io/blog/2023/03/23/spring-boot-3-0-5-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/03/23/spring-boot-3-0-5-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.0.5&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Mar 2023 14:36:06 GMT</lastBuildDate><item><title><![CDATA[Spring Integration 5.5.17, 6.0.4 and 6.1.0-M2 Available]]></title><link>https://spring.io/blog/2023/03/23/spring-integration-5-5-17-6-0-4-and-6-1-0-m2-available</link><guid isPermaLink="true">https://spring.io/blog/2023/03/23/spring-integration-5-5-17-6-0-4-and-6-1-0-m2-available</guid><dc:creator><![CDATA[Artem Bilan]]></dc:creator><pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Dear Spring community,&lt;/p&gt;
+&lt;p&gt;On behalf of the team, it is my pleasure to announce that Spring Integration &lt;code&gt;6.1.0-M2&lt;/code&gt; is now available from Spring Milestone repository.&lt;/p&gt;
+&lt;p&gt;In addition bug fixes versions &lt;code&gt;5.5.17&lt;/code&gt; and &lt;code&gt;6.0.4&lt;/code&gt; have been released.
+They also include upgrades to the latest point versions of dependencies with their bug fixes.&lt;/p&gt;
+&lt;p&gt;The Spring Integration &lt;code&gt;6.1&lt;/code&gt; version is a natural evolution of &lt;code&gt;6.x&lt;/code&gt; generation with fixes and improvements which didn&apos;t make it into &lt;code&gt;6.0&lt;/code&gt;.
+Plus we listen to community and make some possibly but convenient for target projects breaking changes.&lt;/p&gt;
+&lt;p&gt;Some highlights of this new version include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Upgrades to the latest dependencies, but only if they don&apos;t break the public API we expose&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Added Protobuf transformers support (shout out to &lt;a href=&quot;https://spring.io/team/tzolov&quot;&gt;Christian Tzolov&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Migration of Zip extension to respective module in the core project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;MessageFilter&lt;/code&gt; now emits a WARN log when a request message is dropped making it, technically, not silent as it was before&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now gateways and replying handlers don&apos;t block forever for sending and receiving operations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The default timeout in the framework is chosen to be &lt;code&gt;30&lt;/code&gt; seconds&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://docs.spring.io/spring-integration/docs/6.1.0-M2/reference/html/whats-new.html#whats-new&quot;&gt;What&apos;s New&lt;/a&gt; in the documentation and don&apos;t forget about a &lt;a href=&quot;https://github.com/spring-projects/spring-integration/wiki/Spring-Integration-6.0-to-6.1-Migration-Guide&quot;&gt;Migration Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Following Spring Boot release cadence we are going to have Spring Integration &lt;code&gt;6.1.0-RC1&lt;/code&gt; in April and then GA in May - just for upcoming Spring Boot &lt;code&gt;3.1.0&lt;/code&gt;. Feel free to contribute whatever you find valuable!&lt;/p&gt;
+&lt;p&gt;Cheers,?&lt;br&gt;
+Artem&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://projects.spring.io/spring-integration/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/issues&quot;&gt;GitHub Issues&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.adoc&quot;&gt;Contributing&lt;/a&gt; | &lt;a href=&quot;http://stackoverflow.com/questions/tagged/spring-integration&quot;&gt;Help&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-integration&quot;&gt;Chat&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.0.5 available now]]></title><link>https://spring.io/blog/2023/03/23/spring-boot-3-0-5-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/03/23/spring-boot-3-0-5-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.0.5&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
 &lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.0.5&quot;&gt;40 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
 &lt;h3&gt;Java 20 Support&lt;/h3&gt;
 &lt;p&gt;Following the GA release of Java 20 earlier this week, Spring Boot 3.0.5 adds support for Java 20.&lt;/p&gt;
@@ -190,19 +219,4 @@ from Employee e
 &lt;p&gt;Spring for GraphQL 1.1.3 includes &lt;a href=&quot;https://github.com/spring-projects/spring-graphql/releases/tag/v1.1.3&quot;&gt;12 fixes and documentation improvements&lt;/a&gt;. This version will be shipped with Spring Boot 3.0.5, &lt;a href=&quot;https://calendar.spring.io/&quot;&gt;to be released this Thursday&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-graphql&quot;&gt;&lt;code&gt;spring-graphql&lt;/code&gt; tag&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-graphql/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.1.3/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-graphql&quot;&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Vault 3.0.2 and 2.3.3 fix CVE-2023-20859]]></title><link>https://spring.io/blog/2023/03/20/spring-vault-3-0-2-and-2-3-3-fix-cve-2023-20859</link><guid isPermaLink="true">https://spring.io/blog/2023/03/20/spring-vault-3-0-2-and-2-3-3-fix-cve-2023-20859</guid><dc:creator><![CDATA[Mark Paluch]]></dc:creator><pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that the Spring Vault &lt;code&gt;3.0.2&lt;/code&gt; and &lt;code&gt;2.3.3&lt;/code&gt; versions are available now.&lt;/p&gt;
-&lt;p&gt;Spring Vault &lt;code&gt;3.0.2&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-vault/releases/tag/3.0.2&quot;&gt;7 fixes and documentation improvements&lt;/a&gt; Spring Vault 2.3.3 ships with &lt;a href=&quot;https://github.com/spring-projects/spring-vault/releases/tag/2.3.3&quot;&gt;13 fixes and selected improvements&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Those versions fix the following CVE:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/security/cve-2023-20859&quot;&gt;CVE-2023-20859&lt;/a&gt;: Insertion of Sensitive Information into Log Sourced from Failed Revocation of Tokens&lt;/p&gt;
-&lt;p&gt;Those versions will be shipped with Spring Cloud in the next days. Until then, please override the dependency version in your project.&lt;/p&gt;
-&lt;p&gt;For Gradle builds in &lt;code&gt;build.gradle&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;implementation &apos;org.springframework.vault:spring-vault-core:3.0.2&apos;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Or for Maven builds in &lt;code&gt;pom.xml&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;#x3C;dependency&gt;
-    &amp;#x3C;groupId&gt;org.springframework.vault&amp;#x3C;/groupId&gt;
-    &amp;#x3C;artifactId&gt;spring-vault-core&amp;#x3C;/artifactId&gt;
-    &amp;#x3C;version&gt;3.0.2&amp;#x3C;/version&gt;
-&amp;#x3C;/dependency&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;https://projects.spring.io/spring-vault/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-vault&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-vault/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-vault/docs/3.0.2/reference/html/&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-graphql/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-graphql/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-graphql/docs/1.1.3/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-graphql&quot;&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

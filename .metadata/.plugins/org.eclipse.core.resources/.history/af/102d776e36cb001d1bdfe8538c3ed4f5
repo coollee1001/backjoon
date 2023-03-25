@@ -1,0 +1,40 @@
+package backjoonProject.chap1.ch_10189;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * (A+B)%C�� ((A%C) + (B%C))%C �� ������?
+ * (A��B)%C�� ((A%C) �� (B%C))%C �� ������?
+ * �� �� A, B, C�� �־����� ��, ���� �� ���� ���� ���ϴ� ���α׷��� �ۼ��Ͻÿ�.
+ * input : ù° �ٿ� A, B, C�� ������� �־�����. (2 �� A, B, C �� 10000)
+ * output : ù° �ٿ� (A+B)%C, ��° �ٿ� ((A%C) + (B%C))%C, ��° �ٿ� (A��B)%C, ��° �ٿ� ((A%C) �� (B%C))%C�� ����Ѵ�.
+ * @author siwon
+ */
+
+public class Main {
+	public static void main(String[] args) {
+		// ���� �ʱ�ȭ  �� �Է� ����
+		int[] arrInt = {0, 0, 0};
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			String[] temp = br.readLine().split(" ");
+
+			// 3���� ������ �ȵ����� ��� ���� ����
+			if(temp.length != 3) return;
+			
+			for(int index =0; index<arrInt.length; index++) {
+				arrInt[index] = Integer.parseInt(temp[index]);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println(( arrInt[0] + arrInt[1] ) % arrInt[2]);
+		System.out.println(( ( arrInt[0] % arrInt[2] ) + ( arrInt[1] % arrInt[2] ) ) % arrInt[2]);
+		System.out.println(( arrInt[0] * arrInt[1] ) % arrInt[2]);
+		System.out.println(( ( arrInt[0] % arrInt[2] ) * ( arrInt[1] % arrInt[2] ) ) % arrInt[2]);
+		
+	}
+}

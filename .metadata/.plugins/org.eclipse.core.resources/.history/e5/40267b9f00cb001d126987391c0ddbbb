@@ -1,0 +1,28 @@
+package backjoonProject.chap1.ch_8437;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * https://www.acmicpc.net/problem/8437
+ * 
+ * @author siwon
+ *
+ */
+public class Main {
+    public static void main(String[] args) throws IOException {
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));    	
+    	
+    	// 입력
+    	int sum = Integer.parseInt(br.readLine());
+    	int diff = Integer.parseInt(br.readLine());
+    	
+    	br.close();
+    	
+    	// 계산 및 출력 (diff만큼 차이 있어야 함)
+    	sum -= diff;
+    	System.out.println((sum/2) + diff);
+    	System.out.println((sum/2) - diff);    	
+    }
+}
